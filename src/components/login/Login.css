@@ -1,0 +1,20 @@
+.login__error--show {
+    display: block;
+    color: red;
+}
+
+.login__error--disappear {
+    display: none;
+}
+
+.login__container {
+    width: 30vw;
+    margin: 20vh auto;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.login__button{
+    background-color: #4458c4!important;
+    color:white!important;
+}

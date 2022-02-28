@@ -1,0 +1,47 @@
+.registration__container {
+    width: 30vw;
+    margin: 20vh auto;
+}
+
+.registration__form {
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.registration__title {
+    text-align: left!important;
+    margin-bottom: 2rem;
+}
+
+.registration__error--show {
+    display: block;
+    color: red;
+}
+
+.registration__error--disappear {
+    display: none;
+}
+
+.registration__modal {
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(212, 208, 208);
+    margin: 28vh auto;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.registration__modalCheck {
+    font-size: 5rem;
+    color: green;
+    margin: 2rem 0;
+}
+
+.registration__modalBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

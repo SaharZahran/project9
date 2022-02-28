@@ -1,0 +1,47 @@
+.post__image {
+    width: 6vw;
+}
+
+.post__container {
+    width: 50vw;
+    margin: 5vh auto;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.post__info {
+    display: flex;
+    align-items: center;
+}
+
+.post__info h2,
+.post__info h3 {
+    font-size: 1em;
+}
+
+.post__content {
+    font-size: 2em;
+    margin: 2rem 0;
+    line-height: 2.5rem;
+}
+
+.post__button--comment {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #4458c4;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    margin: 1rem 1rem 0 0;
+}
+
+.post__button-like,
+.post__button-dislike,
+.post__likes,
+.post__dislikes {
+    font-size: 2em;
+    margin-right: 1rem;
+    cursor: pointer;
+}

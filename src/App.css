@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app__container {
+    display: flex;
+    justify-content: center;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+.comment__container {
+    margin-left: 2rem;
+}

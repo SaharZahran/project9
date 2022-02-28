@@ -1,0 +1,61 @@
+.navbar {
+    padding: 0.5rem 10rem;
+    background-color: rgb(204, 204, 207);
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.navbar__links--right {
+    display: flex;
+}
+
+.navbar__barsIcon {
+    display: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navber__logo {
+    width: 7%;
+}
+
+.navbar__userInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar__userName {
+    margin-right: 1rem;
+}
+
+.login__logoutBtn:hover {
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .navbar__links--right {
+        display: none;
+    }
+    .navbar__barsIcon {
+        display: block;
+        color: black;
+    }
+}

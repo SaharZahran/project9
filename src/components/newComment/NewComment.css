@@ -1,0 +1,14 @@
+.newcomment {
+    background-color: #4457c421;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.comment__delete,
+.comment__update {
+    border: none;
+    margin-left: 0.5vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
